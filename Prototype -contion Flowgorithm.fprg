@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 04:58:27 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1VMDdCNTk3OzIwMjEtMTAtMTI7IjAyOjMzOjMwICI7MzAyNw=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1VMDdCNTk3OzIwMjEtMTAtMTI7IjA0OjU4OjI3ICI7MzszMTUy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM1" type="Integer" array="False" size=""/>
+            <declare name="NUM2" type="Integer" array="False" size=""/>
+            <declare name="MAX" type="Integer" array="False" size=""/>
+            <output expression="&quot;donner NUM1 &quot;" newline="True"/>
+            <input variable="NUM1"/>
+            <output expression="&quot;donner NUM2 &quot;" newline="True"/>
+            <input variable="NUM2"/>
+            <if expression="NUM1&gt;NUM2">
+                <then>
+                    <assign variable="MAX" expression="NUM1"/>
+                </then>
+                <else>
+                    <assign variable="MAX" expression="NUM2"/>
+                </else>
+            </if>
+            <output expression="&quot;RESULTAT:&quot;&amp;MAX" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
