@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 07:14:56 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1VMDdCNTk3OzIwMjEtMTAtMTI7IjA2OjQ3OjQ1ICI7MzA0Mg=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1VMDdCNTk3OzIwMjEtMTAtMTI7IjA3OjE0OjU2ICI7MTszMTQ3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Real" array="False" size=""/>
+            <declare name="B" type="Real" array="False" size=""/>
+            <declare name="operation" type="String" array="False" size=""/>
+            <declare name="resultat" type="Real" array="False" size=""/>
+            <input variable="A"/>
+            <input variable="B"/>
+            <input variable="operation"/>
+            <if expression="operation=&quot;+&quot;">
+                <then>
+                    <assign variable="resultat" expression="A+B"/>
+                </then>
+                <else>
+                    <if expression="operation=&quot;-&quot;">
+                        <then>
+                            <assign variable="resultat" expression="A-B"/>
+                        </then>
+                        <else>
+                            <if expression="operation=&quot;*&quot;">
+                                <then>
+                                    <assign variable="resultat" expression="A*B"/>
+                                </then>
+                                <else>
+                                    <if expression="operation=&quot;/&quot;">
+                                        <then>
+                                            <assign variable="resultat" expression="A/B"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="resultat" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
