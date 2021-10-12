@@ -1,0 +1,5 @@
+donner le premier entier 
+8
+donner deuxieme entier 
+4
+4

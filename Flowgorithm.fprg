@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="solicode"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-10-12 04:00:45 "/>
+        <attribute name="created" value="c29saWNvZGU7REVTS1RPUC1VMDdCNTk3OzIwMjEtMTAtMTI7IjAyOjMzOjMwICI7MzAyNw=="/>
+        <attribute name="edited" value="c29saWNvZGU7REVTS1RPUC1VMDdCNTk3OzIwMjEtMTAtMTI7IjA0OjAwOjQ1ICI7MTszMTM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;donner le premier entier &quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;donner deuxieme entier &quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="c" expression="A-b"/>
+            <output expression="c" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
